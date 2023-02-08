@@ -48,10 +48,10 @@ public class MainApp {
          System.out.println();
       }
 
-      User foundedUser1 = userService.findUserByCar("mod_4", 4);
-      User foundedUser2 = userService.findUserByCar("mod_2", 2);
-      System.out.println(foundedUser1.getFirstName());
-      System.out.println(foundedUser2.getFirstName());
+      User foundedUser_1 = userService.findUserByCar("mod_4", 4);
+      User foundedUser_2 = userService.findUserByCar("mod_2", 2);
+      System.out.println(foundedUser_1.getFirstName());
+      System.out.println(foundedUser_2.getFirstName());
 
       context.close();
    }
